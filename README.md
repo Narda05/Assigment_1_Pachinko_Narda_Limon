@@ -136,6 +136,9 @@ Zone Layout:
 ║   0  15  20  20  15   0   ║
 ╚════════════════════╝
 ```
+![image](https://github.com/user-attachments/assets/02f88842-82a7-4288-8fba-ed6cbdce3f5d)
+
+
 
 ### Obstacle System
 - Static donut pins arranged in a grid
