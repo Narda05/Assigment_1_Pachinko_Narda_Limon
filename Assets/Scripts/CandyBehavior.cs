@@ -5,12 +5,7 @@ public class CandyBehavior : MonoBehaviour
     // This method is executed when the object collides with another object
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Check if the object it collided with is a collectable
-        if (collision.gameObject.CompareTag("Collectable"))
-        {
-            NewMonoBehaviourScript.Instance.AddScore(100);
-            Destroy(collision.gameObject); // Destroy the collectable
-        }
+        
 
         // Check if the object it collided with is the ground (not a Trigger)
         if (collision.gameObject.CompareTag("Ground"))
@@ -58,6 +53,16 @@ public class CandyBehavior : MonoBehaviour
 
             // Destroy the Candy_0 when it touches the ground
             Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Check if the object it collided with is a collectable
+        if (collision.gameObject.CompareTag("Collectable"))
+        {
+            NewMonoBehaviourScript.Instance.AddScore(100);
+            Destroy(collision.gameObject); // Destroy the collectable
         }
     }
 }

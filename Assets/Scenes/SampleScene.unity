@@ -2156,6 +2156,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2137488733}
     m_Modifications:
+    - target: {fileID: -5754393987034308446, guid: 10a3e3f340d2f5b4d9710fddf651b5c7, type: 3}
+      propertyPath: cloudSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1278499717259819247, guid: 10a3e3f340d2f5b4d9710fddf651b5c7, type: 3}
       propertyPath: m_Name
       value: Blue_Donut_0 (13)
@@ -7540,6 +7544,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2137488733}
     m_Modifications:
+    - target: {fileID: -1454982170650326271, guid: 79bc2797bfcfccd4ba02e2cc3e40dba7, type: 3}
+      propertyPath: cloudSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4385403487634531046, guid: 79bc2797bfcfccd4ba02e2cc3e40dba7, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.049999997

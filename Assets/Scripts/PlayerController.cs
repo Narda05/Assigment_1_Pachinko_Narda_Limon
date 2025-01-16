@@ -12,6 +12,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float maxY = 5f;  // The maximum (up) point where the generator can be
 
+    [SerializeField]
+    private float minX = 0f;  // The minimum (left) point where the generator can be
+    [SerializeField]
+    private float maxX = 5f;  // The maximum (right) point where the generator can be
+
     // Update is called once per frame
     void Update()
     {
@@ -38,6 +43,8 @@ public class PlayerController : MonoBehaviour
 
         // Restrict the position on the Y axis so the generator doesn't move out of the allowed zone
         newPosition.y = Mathf.Clamp(newPosition.y, minY, maxY);
+
+        newPosition.x = Mathf.Clamp(newPosition.x, minX, maxX);
 
         // Assign the new position of the generator
         transform.position = newPosition;
