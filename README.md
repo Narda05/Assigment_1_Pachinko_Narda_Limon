@@ -1,6 +1,5 @@
 # 🚀 Game Play
-![Recording+2025-01-16+at+01 06 02](https://github.com/user-attachments/assets/55817635-f5cd-4b12-b312-9c380ee68d0a)
-
+![Image](https://github.com/user-attachments/assets/e5ec8a25-9414-499a-b1ee-d76610150885)
 
 # Authors
 - [@Narda05](https://github.com/Narda05)
