@@ -710,7 +710,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minY: 3.2
-  maxY: 4.3
+  maxY: 4
+  minX: -3.25
+  maxX: 3.25
 --- !u!1001 &100298446
 PrefabInstance:
   m_ObjectHideFlags: 0
